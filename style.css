@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 610px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.top {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    
+}
+.top img {
+    margin: 60px auto 0;
+}
+
+.login {
+    height: 260px;
+    width: 500px;
+    border: 1px solid silver;
+    margin: 20px auto 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px .5px rgba(0, 0, 0, 0.473);
+}
+
+.login_top {
+    height: 50px;
+    width: 90%;
+    background: rgba(135, 207, 235, 0.432);
+    margin: 20px auto 0;
+    border-radius: 5px;
+
+}
+
+.login_top p {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    color: rgba(70, 131, 180, 0.747);
+}
+
+.user {
+    margin: 40px auto 0;
+    text-align: center;
+}
+.user input {
+    height: 30px;
+    width: 90%;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 5px;
+
+}
+.user input:hover {
+    outline: none;
+    box-shadow: 2px 2px 2px .5px rgba(135, 207, 235, 0.253);
+    border-color: rgba(135, 207, 235, 0.486);
+}
+.user input::placeholder {
+    padding: 10px;
+}
+
+button {
+    height: 32px;
+    width: 60%;
+    cursor: pointer;
+}
+.login_btn {
+    background: rgb(9, 157, 216);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background: rgba(0, 0, 255, 0.74);
+}
+
+.copy {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.copy a {
+    text-decoration: none;
+    color: skyblue;
+}
